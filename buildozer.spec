@@ -218,7 +218,7 @@ android.gradle_dependencies = "org.tensorflow:tensorflow-lite:+","org.tensorflow
 #android.uses_library =
 
 # (str) Android logcat filters to use
-#android.logcat_filters = *:S python:D
+android.logcat_filters = *:S python:D
 
 # (bool) Android logcat only display log for activity's pid
 #android.logcat_pid_only = False
@@ -230,7 +230,7 @@ android.gradle_dependencies = "org.tensorflow:tensorflow-lite:+","org.tensorflow
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.arch = x86
+android.arch = arm64-v8a
 
 # (int) overrides automatic versionCode computation (used in build.gradle)
 # this is not the same as app version and should only be edited if you know what you're doing
